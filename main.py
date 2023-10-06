@@ -33,11 +33,11 @@ WIZARD_OFFSET = [112,107]
 WIZARD_DATA = [WIZARD_SIZE,WIZARD_SCALE, WIZARD_OFFSET]
 
 #load background image
-bg_image = pygame.image.load("/Users/learnacademy/Desktop/4_corners/Arena Assets folder/r7o0_t458_210426_generated.jpg").convert_alpha()
+bg_image = pygame.image.load("/Users/paulgooden/Desktop/4-corners-arena/Arena Assets folder/r7o0_t458_210426_generated.jpg").convert_alpha()
 
 # load spreadsheets
-warrior_sheet = pygame.image.load("/Users/learnacademy/Desktop/4_corners/Arena Assets folder/warrior.png").convert_alpha()
-wizard_sheet = pygame.image.load("/Users/learnacademy/Desktop/4_corners/Arena Assets folder/wizard.png").convert_alpha()
+warrior_sheet = pygame.image.load("/Users/paulgooden/Desktop/4-corners-arena/Arena Assets folder/warrior.png").convert_alpha()
+wizard_sheet = pygame.image.load("/Users/paulgooden/Desktop/4-corners-arena/Arena Assets folder/wizard.png").convert_alpha()
 
 # define number of steps in each animation
 WARRIOR_ANIMATION_STEPS = [10,8,1,7,7,3,7]
